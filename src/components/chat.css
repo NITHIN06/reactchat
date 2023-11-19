@@ -1,0 +1,43 @@
+.half{
+    width: 50%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.chat_box
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.chat_right
+{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.chat_box p{
+    width: fit-content;
+    max-width: 50%;
+    padding: 5px 10px;
+}
+.chat_left p{
+    background-color: red;
+    border-radius: 5px 5px 5px 0%;
+}
+
+.chat_right p
+{
+    border-radius: 5px 5px 0% 5px;
+    background-color: violet;
+}
